@@ -42,3 +42,26 @@ var addition = c+d
 console.log("addition of two values are:" + addition)
 var addition = a+b
 console.log("addition of two values are:" + addition)  // This is how we can redeclare the var type variables. 
+
+const golden_data = 'fixed'  // This value can't be changed. It's constant over the script execution. No reassignment is allowed.
+console.log(golden_data)
+
+// 6. If_else examples
+const flag = false;
+
+if(!flag){
+    console.log(flag)
+    console.log("In If block")
+}
+else{
+    console.log(flag)
+    console.log("In else block")
+}
+
+// 7. While Loop examples
+var index = 10; 
+while(index>0){
+    console.log(index)
+    index--;  
+}
+
