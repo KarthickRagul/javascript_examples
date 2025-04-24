@@ -47,6 +47,7 @@ const golden_data = 'fixed'  // This value can't be changed. It's constant over 
 console.log(golden_data)
 
 // 6. If_else examples
+console.log("-----Example of if_else-----")
 const flag = false;
 
 if(!flag){
@@ -59,9 +60,27 @@ else{
 }
 
 // 7. While Loop examples
+console.log("-----Example of while Loop-----")
 var index = 10; 
 while(index>0){
     console.log(index)
     index--;  
+}
+
+// 8. do while Loop - executes atleast once before it checks the condition
+console.log("-----Example of Do while Loop------")
+do{
+    console.log("Do while");
+    index--
+}while(index>10);
+console.log("End of do while")
+
+
+// 9.For Loop  
+console.log("-----Example of For Loop------")
+for(let index=0;index<100;index++ ){
+    if(index%2==0 && index%5==0){
+        console.log(index)
+    }
 }
 
