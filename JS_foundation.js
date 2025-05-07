@@ -84,3 +84,11 @@ for(let index=0;index<100;index++ ){
     }
 }
 
+// 10. Scope of the variables. 
+//var - Global level/function level, can be reinitialized
+//let - global level/Block level, can be reinitialized
+//const - can't be reinitialized
+
+
+
+
